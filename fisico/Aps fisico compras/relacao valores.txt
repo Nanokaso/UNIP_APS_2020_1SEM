@@ -1,0 +1,46 @@
+_____________________________________
+Produto 	R$ 19,99
+Custo de envio 	R$ 19,90
+Pagamento 	R$ 39,89 Sem juros
+_____________________________________
+Produto 	R$ 8,90
+Custo de envio 	R$ 8,90
+Pagamento 	R$ 17,80 Sem juros
+_____________________________________
+Produto 	R$ 16,99
+Custo de envio 	R$ 8,90
+Pagamento 	R$ 25,89 Sem juros
+_____________________________________
+Produto 	R$ 16,99
+Custo de envio 	R$ 8,90
+Pagamento 	R$ 25,89 Sem juros
+_____________________________________
+Produto 	R$ 11,90
+Custo de envio 	R$ 8,90
+Pagamento 	R$ 20,80 Sem juros
+_____________________________________
+Produto 	R$ 15,90
+Custo de envio 	R$ 8,90
+Pagamento 	R$ 24,80 Sem juros
+_____________________________________
+Produto 	R$ 15,00
+Custo de envio 	R$ 8,90
+Pagamento 	R$ 23,90 Sem juros
+_____________________________________
+Produto 	R$ 13,50
+Custo de envio 	R$ 8,90
+Pagamento 	R$ 22,40 Sem juros
+_____________________________________
+Produto 	R$ 18,00
+Custo de envio 	R$ 8,90
+Pagamento 	R$ 26,90 Sem juros
+_____________________________________
+Produto 	R$ 66,49
+Custo de envio 	R$ 9,90
+Pagamento 	R$ 76,39 Sem juros
+
+_____________________________________
+
+Tudo com frete: 304,66
+Tudo sem frete: 203,66
+Somente frete:  101,00
