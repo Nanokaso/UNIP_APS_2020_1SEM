@@ -9,7 +9,8 @@ using Microsoft.AspNetCore.Http;
 namespace onStorm.Controllers
 {
     public class AdmController : Controller
-    {       
+    {
+
         public ActionResult Index ()
         {
             ViewBag.mensagemLogin = null;
@@ -37,7 +38,7 @@ namespace onStorm.Controllers
 
                 if( model.username == "adm" && model.password == "123456" )
                 {
-                    HttpContext.Session.SetString("usuario", "Administrador");                    
+                    HttpContext.Session.SetString("usuario", "Administrador");
                     return RedirectToAction("Index", "Dashboard");
                 }
                 else

@@ -117,7 +117,7 @@ namespace onStorm
         private  string pastaDispositivo ="";
         public Banco ()
         {
-            
+
             var rootpath = Path.Combine(Directory.GetCurrentDirectory(),"Banco"); //utils.Folder.AppDataFolder();
             pastaRegistro = Path.Combine(rootpath, "REG");
             pastaDispositivo = Path.Combine(rootpath, "DIS");
@@ -134,7 +134,11 @@ namespace onStorm
         {
             try
             {
-                escrever(pastaDispositivo, dispositivo.ToArquivo());
+                var dispositivos = GetDispositivos();
+                if( dispositivos == null || !dispositivos.Where(x => x.idDisp == dispositivo.idDisp).Any() )
+                {
+                    escrever(pastaDispositivo, dispositivo.ToArquivo());
+                }
             }
             catch( Exception ex )
             {
@@ -158,6 +162,26 @@ namespace onStorm
                         id = getGuid(),
                     };
                     escrever(pastaRegistro, re.ToArquivo());
+                }
+            }
+            catch( Exception ex )
+            {
+                throw new Exception("Não foi possivel salvar novo dispositivo", ex);
+            }
+        }
+
+        public void incluirRegistro (List<registroModel> registros)
+        {
+            try
+            {
+                var dispositivos = GetDispositivos();
+                foreach( var reg in registros )
+                {
+                    if( dispositivos != null && dispositivos.Where(x => x.idDisp == reg.idDisp).Any() )
+                    {
+                        reg.id = getGuid();                       
+                        escrever(pastaRegistro, reg.ToArquivo());
+                    }
                 }
             }
             catch( Exception ex )

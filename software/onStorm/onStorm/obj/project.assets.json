@@ -12944,11 +12944,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Sistemas\\_facul\\Aps 2020\\software\\onStorm\\onStorm\\onStorm.csproj",
+      "projectUniqueName": "C:\\Sistemas\\_facul\\aps 2020 git\\APS20201SEM\\software\\onStorm\\onStorm\\onStorm.csproj",
       "projectName": "onStorm",
-      "projectPath": "C:\\Sistemas\\_facul\\Aps 2020\\software\\onStorm\\onStorm\\onStorm.csproj",
+      "projectPath": "C:\\Sistemas\\_facul\\aps 2020 git\\APS20201SEM\\software\\onStorm\\onStorm\\onStorm.csproj",
       "packagesPath": "C:\\Users\\Nataly\\.nuget\\packages\\",
-      "outputPath": "C:\\Sistemas\\_facul\\Aps 2020\\software\\onStorm\\onStorm\\obj\\",
+      "outputPath": "C:\\Sistemas\\_facul\\aps 2020 git\\APS20201SEM\\software\\onStorm\\onStorm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
